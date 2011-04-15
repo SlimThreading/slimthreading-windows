@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="St.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StInternal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Alerter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Barrier.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockingQueue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundedBlockingQueue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConditionVariable.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CountDownEvent.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Exchanger.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FairLock.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Future.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InitOnce.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InitOnceLock.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedBlockingQueue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lock.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LockedQueue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NotificationEvent.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Parker.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParkSpot.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadUpgradeWriteLock.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadWriteLock.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReentrantFairLock.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReentrantLock.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReentrantReadWriteLock.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RendezvousChannel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceTable.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Semaphore.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpinLock.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpinWait.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StreamBlockingQueue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SynchonizationEvent.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Waitaible.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UmsScheduler.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RegisteredWait.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RegisteredTake.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
