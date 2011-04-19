@@ -365,6 +365,7 @@ EnableUnparkCallback (
     __inout_opt PRAW_TIMER TimeoutTimer
     )
 {
+    ULONG WaitStatus;
 
     //
     // If the unpark was already called, return immeditely.
@@ -411,11 +412,12 @@ EnableUnparkCallback (
     //
     
     if (!InterlockedBitTestAndReset(&CbParker->Parker.State, WAIT_IN_PROGRESS_BIT)) {
-
-        if (CbParker->RawTimer != NULL) {
+        WaitStatus = CbParker->Parker.WaitStatus;
+        
+        if (CbParker->RawTimer != NULL && WaitStatus != WAIT_TIMEOUT) {
             UnlinkRawTimer(TimeoutTimer);
         }
-        return CbParker->Parker.WaitStatus;
+        return WaitStatus;
     }
     return WAIT_PENDING;
 }

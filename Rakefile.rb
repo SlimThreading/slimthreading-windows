@@ -33,8 +33,8 @@ end
 
 def msbuild_output_path
   return "src/X64/#{CONFIGURATION}/" if PLATFORM.downcase == 'x64'
-	return "src/#{CONFIGURATION}/" if PLATFORM.downcase == 'win32'
-	raise ArgumentError, 'Unkown platform ' + PLATFORM
+  return "src/#{CONFIGURATION}/" if PLATFORM.downcase == 'win32'
+  raise ArgumentError, 'Unkown platform ' + PLATFORM
 end
 
 def clean_dir(dir)
